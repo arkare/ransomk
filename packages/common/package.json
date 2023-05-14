@@ -1,0 +1,24 @@
+{
+  "name": "ransomkcommon",
+  "version": "0.1.0",
+  "main": "build/index.js",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "libsodium-wrappers": "^0.7.11",
+    "md5": "^2.3.0",
+    "node-machine-id": "^1.1.12",
+    "node-rsa": "^1.1.1"
+  },
+  "scripts": {
+    "postinstall": "tsc",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/libsodium-wrappers": "^0.7.10",
+    "@types/md5": "^2.3.2",
+    "@types/node-rsa": "^1.1.1",
+    "copyfiles": "^2.4.1",
+    "pkg": "^5.8.1",
+    "typescript": "^5.0.4"
+  }
+}

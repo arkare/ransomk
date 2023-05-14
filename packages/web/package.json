@@ -1,0 +1,28 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "src": "src/index.html",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react-router-dom": "^5.3.3",
+    "md5": "^2.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.1"
+  },
+  "scripts": {
+    "serve": "parcel src/index.html --public-url /dashboard",
+    "build": "parcel build src/index.html --public-url /dashboard"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.0",
+    "@babel/plugin-transform-flow-strip-types": "^7.0.0",
+    "@parcel/transformer-webmanifest": "2.8.3",
+    "@types/md5": "^2.3.2",
+    "@types/react": "^18.2.6",
+    "@types/react-dom": "^18.2.4",
+    "flow-bin": "^0.205.1",
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  }
+}

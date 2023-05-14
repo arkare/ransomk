@@ -1,0 +1,34 @@
+* {
+  outline: #303030;
+  font-family: monospace, sans-serif;
+}
+
+html,
+body {
+  background: #010101;
+  color: #555;
+}
+
+hr {
+  border: 1px solid #1f1f1f;
+}
+
+button,
+select {
+  background: #1f1f1f;
+  color: #999;
+}
+
+textarea {
+  background: #080808;
+  color: #999;
+  border: 2px solid #111111;
+}
+
+a {
+  color: red;
+}
+
+li {
+  line-height: 1.5;
+}
